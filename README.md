@@ -3,15 +3,14 @@ Task1: Inverted index with MapReduce
 Use the files in the folder /data/assignments/ex2/task1/large/ as input and produce an inverted
 index using MapReduce. For instance, given the following documents: (4 marks)    
 d1.txt: cat dog cat fox  
-d2.txt: cat bear cat cat fox＜/br＞
-
-d3.txt: fox wolf dog＜/br＞
-you should build the following full inverted index.＜/br＞
-bear: 1 : {(d2.txt,1)}＜/br＞
-cat : 2 : {(d1.txt, 2), (d2.txt, 3)}＜/br＞
-dog : 2 : {(d1.txt, 1), (d3.txt, 1)}＜/br＞
-fox : 3 : {(d1.txt, 1), (d2.txt, 1), (d3.txt, 1)}＜/br＞
-wolf: 1 : {(d3.txt,1)}＜/br＞
+d2.txt: cat bear cat cat fox   
+d3.txt: fox wolf dog     
+you should build the following full inverted index.    
+bear: 1 : {(d2.txt,1)}    
+cat : 2 : {(d1.txt, 2), (d2.txt, 3)}    
+dog : 2 : {(d1.txt, 1), (d3.txt, 1)}    
+fox : 3 : {(d1.txt, 1), (d2.txt, 1), (d3.txt, 1)}     
+wolf: 1 : {(d3.txt,1)}
 
 Task2: Parsing StackOverflow＜/br＞
 Which are the 10 most popular questions according to their view counts (attribute ViewCount in a question
