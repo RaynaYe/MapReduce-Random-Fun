@@ -2,8 +2,9 @@
 Task1: Inverted index with MapReduce
 Use the files in the folder /data/assignments/ex2/task1/large/ as input and produce an inverted
 index using MapReduce. For instance, given the following documents: (4 marks)＜/br＞
-d1.txt: cat dog cat fox＜/br＞
+d1.txt: cat dog cat fox  
 d2.txt: cat bear cat cat fox＜/br＞
+
 d3.txt: fox wolf dog＜/br＞
 you should build the following full inverted index.＜/br＞
 bear: 1 : {(d2.txt,1)}＜/br＞
