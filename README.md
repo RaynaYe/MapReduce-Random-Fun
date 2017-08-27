@@ -12,18 +12,18 @@ dog : 2 : {(d1.txt, 1), (d3.txt, 1)}
 fox : 3 : {(d1.txt, 1), (d2.txt, 1), (d3.txt, 1)}     
 wolf: 1 : {(d3.txt,1)}
 
-Task2: Parsing StackOverflow＜/br＞
+Task2: Parsing StackOverflow   
 Which are the 10 most popular questions according to their view counts (attribute ViewCount in a question
-post)?</br>
+post)?     
 
-Task3: Who was the user that answered the most questions and what were the Ids of these questions?＜/br＞
+Task3: Who was the user that answered the most questions and what were the Ids of these questions?      
 
-Task4: Who was the user that had the most accepted answers and what were these answers? </br>
+Task4: Who was the user that had the most accepted answers and what were these answers?      
 
 Task5: For large data, running reservoir sampling on a single machine would take too long. Implement
 a MapReduce version of reservoir sampling which uniformly samples only a single line and uses
 MapReduce to do so. Use your implementation to sample a single line from the file webLarge.txt.
-Your output should contain only a single line.</br>
+Your output should contain only a single line.   
 
 Task6: Extend the basic version of reservoir sampling such that it can sample multiple lines uniformly without
 replacement and run on a single machine (i.e. no MapReduce). This means that if we want to sample
@@ -32,7 +32,7 @@ n
 k
 ) possible outcomes has equal probability.
 Implement a program that will sample 100 lines from the file webLarge.txt. Run your program locally
-(not as a MapReduce job).</br>
+(not as a MapReduce job).    
 
 Task7: Make your own implementation of a Bloom filter. We leave the choice of a hashing function up to you.
 Write a program that uses your implementation of Bloom filter to approximately de-duplicate the lines
@@ -42,11 +42,11 @@ number of hashing functions and the size of the Bloom filter you use. The probab
 duplicates) from the input does not appear at all in the output should be less than 1%. You can assume
 that your hashing functions produce every value equally likely. When choosing the size of your Bloom
 filter and number of hashing functions, you should assume the worst case in which all lines are unique.
-The number of lines should be a command-line parameter to your program. </br>
+The number of lines should be a command-line parameter to your program. 
 
 Task8: Imagine you are Google and you want to know which search queries (if any) form at least 1% of all
 queries in total. In the file queriesLarge.txt each line is a hash of a query and queries occurred in the
 order as listed in the file. Implement the lossy counting algorithm and run it on the file queriesLarge.txt.
 Your output should contain all queries that form at least 1% of all queries and no query that formed less
-than 0.9% of all queries. </br>
+than 0.9% of all queries. 
 
